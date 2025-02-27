@@ -1,0 +1,106 @@
+* {   
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "inter";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 62.5%;
+    /* border: 1px solid black; */
+ }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--bg-white);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../Assets/Fonts/Inter/static/Inter_18pt-Thin.ttf);
+}
+
+@font-face {
+    font-family: "inter_bold";
+    src: url(../Assets/Fonts/Inter/static/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "inter_black";
+    src: url(../Assets/Fonts/Inter/static/Inter_18pt-Black.ttf);
+}
+
+.inter {
+    font-family: "inter";
+}
+
+.inter_black {
+    font-family: "inter_black";
+}
+
+.inter_bold {
+    font-family: "inter_bold";
+}
+
+
+/* bg-color-started */
+:root {
+
+  --bg-dark: #0d1116;
+  --bg-white: #ffffff;
+  --bg-black: #000000;
+  --bg-gray: #d0d0d1;
+  --bg-blue: #139e9f;
+}
+
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.bg-blue {
+  background-color: var(--bg-purple);
+}
+
+.bg-white {
+  background-color: var(--bg-white);
+}
+
+.bg-black {
+  background-color: var(--bg-black);
+}
+
+.bg-dark {
+  background-color: var(--bg-dark);
+}
+/* bg-color-ended */
+
+/* color-started */
+:root {
+
+  --color-dark: #0d1116;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #d0d0d1;
+  --color-blue: #139e9f;
+}
+
+.color-gray {
+  color: var(--color-gray);
+}
+
+.color-blue {
+  color: var(--color-purple);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+/* color-ended */
